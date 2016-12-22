@@ -1,0 +1,14 @@
+{
+  "name": "drupal/user_links",
+  "type": "drupal-module",
+  "description": "Experimental module provide dynamic user links.",
+  "keywords": ["Drupal", "User", "Links"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.github.com/quocnht/user_links",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.github.com/quocnht/user_links/issues",
+    "source": "https://www.github.com/quocnht/user_links"
+  },
+  "require": { }
+}

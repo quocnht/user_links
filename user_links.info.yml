@@ -1,0 +1,5 @@
+name: User Links
+type: module
+description: Experimental module provide dynamic user links.
+core: 8.x
+package: Custom
