@@ -77,7 +77,7 @@ class UserLinksBlock extends BlockBase implements ContainerFactoryPluginInterfac
           'title_classes' => '',
           'url' => Url::fromUserInput('/user/' . $uid . '/edit'),
         ],
-        'user_links_edit_logout' => [
+        'user_links_logout' => [
           'classes' => '',
           'link_attributes' => '',
           'link_classes' => '',
