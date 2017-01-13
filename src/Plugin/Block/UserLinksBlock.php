@@ -88,7 +88,16 @@ class UserLinksBlock extends BlockBase implements ContainerFactoryPluginInterfac
       ];
     }
     else {
-      $links = [];
+      $links = [
+        'user_links_login' => [
+          'classes' => '',
+          'link_attributes' => '',
+          'link_classes' => '',
+          'title' => t('Login'),
+          'title_classes' => '',
+          'url' => Url::fromUserInput('/user/login'),
+        ],
+      ];
     }
 
     return [
